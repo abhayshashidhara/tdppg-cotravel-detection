@@ -20,11 +20,6 @@ This project handles that problem by moving from raw check-in overlaps to a weig
 ├── notebooks/
 │   ├── gowalla_tdppg_with_sensitivity.ipynb
 │   ├── brightkite_tdppg.ipynb
-│   ├── gowalla_sensitivity_only.ipynb
-│   └── brightkite_sensitivity_only.ipynb
-├── outputs/
-│   ├── gowalla/
-│   └── brightkite/
 └── reports/
     └── Spatial_final_report.pdf
 ```
