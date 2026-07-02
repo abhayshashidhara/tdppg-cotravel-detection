@@ -12,8 +12,7 @@ A major challenge is that popular places such as malls, airports, campuses, rest
 
 The edge weight combines repeated encounter count, encounter strength, distinct days, and shared venues. This gives more importance to repeated and meaningful proximity instead of treating every shared visit equally.
 
-## Repository structure
-
+```text
 .
 ├── README.md
 ├── notebooks/
@@ -22,10 +21,8 @@ The edge weight combines repeated encounter count, encounter strength, distinct 
 │   ├── gowalla_sensitivity_only.ipynb
 │   └── brightkite_sensitivity_only.ipynb
 └── reports/
-└── Spatial_final_report.pdf
-
-The raw datasets and generated outputs are not committed to this repository. They can be downloaded and created locally when running the notebooks.
-
+    └── Spatial_final_report.pdf
+```
 ## Main notebooks
 
 | Notebook                                         | Purpose                                                                                                    |
