@@ -135,13 +135,13 @@ The raw Gowalla and Brightkite datasets are not included in this repository beca
 Download the datasets from Stanford SNAP and place them locally in a `data/` folder before running the notebooks.
 
 Expected local files:
-
+```text
 data/
 ├── loc-gowalla_totalCheckins.txt.gz
 ├── loc-gowalla_edges.txt.gz
 ├── loc-brightkite_totalCheckins.txt.gz
 └── loc-brightkite_edges.txt.gz
-
+```
 The notebooks also check common local and Colab paths such as:
 
 data/
@@ -167,7 +167,7 @@ Optional backup notebooks:
 The notebooks generate output files locally while running. These files are not committed to the repository.
 
 Expected output structure:
-
+```text
 outputs/
 ├── gowalla/
 │   ├── pair_events.jsonl
@@ -183,7 +183,7 @@ outputs/
 ├── runtime_summary.csv
 ├── pair_eval_table.csv
 └── sensitivity_summary.csv
-
+```
 | File                      | Description                                                                            |
 | ------------------------- | -------------------------------------------------------------------------------------- |
 | `pair_events.jsonl`       | Raw valid user-pair encounter events created using spatial and temporal constraints.   |
